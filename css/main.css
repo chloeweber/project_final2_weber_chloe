@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+@font-face {
+    font-family: MouseMemoirs;
+    src: url("fonts/MouseMemoirs-Regular.ttf");
+}
+
+body {
+    font-family: "adelle";
+    font-size: 16px;
+    color: #000000;
+    background-color: #fefbd8;
+}
+
+#logo {
+    margin: auto;
+}
+
+#logo img {
+    width: calc(100% - 20%);
+    height: auto;
+    margin: 0 10%;
+}
