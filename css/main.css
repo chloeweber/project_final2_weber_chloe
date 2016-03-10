@@ -19,24 +19,50 @@ html {
     width: 1px;
 }
 
-@font-face {
-    font-family: MouseMemoirs;
-    src: url("fonts/MouseMemoirs-Regular.ttf");
-}
-
 body {
+    padding: 0;
     font-family: "adelle";
     font-size: 16px;
     color: #000000;
     background-color: #fefbd8;
 }
 
-#logo {
-    margin: auto;
-}
+/* Header */
 
 #logo img {
     width: calc(100% - 20%);
     height: auto;
     margin: 0 10%;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu ul {
+    padding: 0;
+    padding-top: 10px;
+}
+
+#menu li {
+    text-transform: uppercase;
+    display: inline;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 2.5em;
+}
+
+#menu li + li {
+    padding-left: 10%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #f14b11;
+    border: none;
+}
+
+#menu a:hover,
+#menu .current_page_item a {
+    text-decoration: none;
+    color: #3e958f;
 }
