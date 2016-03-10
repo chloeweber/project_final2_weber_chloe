@@ -127,7 +127,7 @@ h4 {
 /* Colors */
 
 #colors {
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 #colors p {
@@ -167,4 +167,31 @@ h4 {
     background-color: #3e958f;
     border: 10px solid white;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Images */
+
+#images {
+    padding: 30px 0;
+}
+
+#image1 {
+    width: 100%;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 0.25em 0;
+}
+
+#image2 {
+    width: 100%;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 0.25em 0;
+}
+
+#image3 {
+    width: 100%;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 0.25em 0;
 }
