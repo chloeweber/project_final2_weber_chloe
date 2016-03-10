@@ -37,6 +37,7 @@ body {
     width: calc(100% - 20%);
     height: auto;
     margin: 0 10%;
+    padding-top: 10px;
 }
 
 #menu {
@@ -121,4 +122,49 @@ h4 {
     background-color: #fefbd8;
     border: 2px solid #3e958f;
     color: #3e958f;
+}
+
+/* Colors */
+
+#colors {
+    padding-top: 10px;
+}
+
+#colors p {
+    text-align: center;
+}
+
+#color1 {
+    padding: 20px;
+    background-color: #f14b11;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#color2 {
+    padding: 20px;
+    background-color: #f7ae36;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#color3 {
+    padding: 20px;
+    background-color: #fed37c;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#color4 {
+    padding: 20px;
+    background-color: #fefbd8;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#color5 {
+    padding: 20px;
+    background-color: #3e958f;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
