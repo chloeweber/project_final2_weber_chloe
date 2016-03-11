@@ -119,7 +119,7 @@ body {
 
 #paragraph-style {
     border: 10px solid #fed37c;
-    padding: 10px;
+    padding: 10px 10px 5px 10px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -249,6 +249,7 @@ h4 {
         padding: 0;
         float: right;
         width: 60%;
+        margin-bottom: 1.5%;
     }
     #colors::after {
         content: "";
@@ -311,5 +312,23 @@ h4 {
         border: 10px solid white;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
         margin: 0.5em 0;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #image1 {
+        width: 20%;
+        margin-left: 11%;
+    }
+
+    #image2 {
+        width: 20%;
+        margin-right: 9%;
+    }
+
+    #image3 {
+        width: 60%;
+        float: right;
+        margin-top: 1%;
     }
 }
