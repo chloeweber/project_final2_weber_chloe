@@ -27,17 +27,25 @@ body {
     background-color: #fefbd8;
 }
 
-.container {
+.site-container {
+    max-width: 1000px;
+}
+
+#container {
     padding: 0 10px;
 }
 
 /* Header */
 
 #logo img {
-    width: calc(100% - 20%);
-    height: auto;
-    margin: 0 10%;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
     padding-top: 10px;
+}
+
+@media all and (min-width: 1000px) {
+
 }
 
 #menu {
