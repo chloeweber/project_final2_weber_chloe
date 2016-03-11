@@ -131,7 +131,7 @@ body {
     }
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 1000px) {
     #paragraph-style {
         width: 40%;
         float: left;
@@ -184,6 +184,14 @@ h4 {
 @media all and (min-width: 600px) {
     #button {
         width: 30%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #button {
+        width: 45%;
         float: right;
         margin-top: 0;
     }
