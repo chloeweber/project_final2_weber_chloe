@@ -37,6 +37,20 @@ body {
 
 /* Header */
 
+@media all and (min-width: 1000px) {
+    header {
+        padding-bottom: 30px;
+        margin: auto;
+        position: relative;
+    }
+
+    header::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+}
+
 #logo img {
     display: block;
     margin: 0 auto;
@@ -45,7 +59,9 @@ body {
 }
 
 @media all and (min-width: 1000px) {
-
+    #logo {
+        float: left;
+    }
 }
 
 #menu {
@@ -66,7 +82,7 @@ body {
 }
 
 #menu li + li {
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 #menu a {
@@ -81,12 +97,32 @@ body {
     color: #f14b11;
 }
 
+@media all and (min-width: 1000px) {
+    #menu {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    #menu ul {
+        float: right;
+    }
+}
+
 /* Main Section */
 
 #paragraph-style {
     border: 10px solid #fed37c;
     padding: 10px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media all and (min-width: 600px) {
+    #paragraph-style::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
 }
 
 h3 {
@@ -132,49 +168,64 @@ h4 {
     color: #3e958f;
 }
 
+@media all and (min-width: 600px) {
+    #button {
+        width: 30%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
 /* Colors */
 
 #colors {
     padding-top: 30px;
 }
 
-#colors p {
+#colors ul {
+    list-style: none;
+    padding: 0;
+}
+
+#colors li {
     text-align: center;
+    margin: 0.5em 0;
+    padding: 20px;
+    border: 10px solid white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 #color1 {
-    padding: 20px;
     background-color: #f14b11;
-    border: 10px solid white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 #color2 {
-    padding: 20px;
     background-color: #f7ae36;
-    border: 10px solid white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 #color3 {
-    padding: 20px;
     background-color: #fed37c;
-    border: 10px solid white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 #color4 {
-    padding: 20px;
     background-color: #fefbd8;
-    border: 10px solid white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 #color5 {
-    padding: 20px;
     background-color: #3e958f;
-    border: 10px solid white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media all and (min-width: 600px) {
+    #colors li {
+        width: 19.45%;
+        display: inline-block;
+        padding: 40px 0;
+    }
+    #colors ul li {
+        max-width: 999px;
+        margin-right: inherit;
+    }
+
 }
 
 /* Images */
