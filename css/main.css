@@ -254,3 +254,27 @@ h4 {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
     margin: 0.25em 0;
 }
+
+@media all and (min-width: 600px) {
+    #images::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    #image1 {
+        width: 49%;
+        float: left;
+    }
+
+    #image2 {
+        width: 49%;
+        float: right;
+    }
+
+    #image3 {
+        width: 100%;
+        border: 10px solid white;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+        margin: 0.5em 0;
+    }
+}
