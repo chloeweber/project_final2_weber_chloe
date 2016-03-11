@@ -35,6 +35,12 @@ body {
     padding: 0 10px;
 }
 
+@media all and (min-width: 1000px) {
+    #container {
+        margin: auto;
+    }
+}
+
 /* Header */
 
 @media all and (min-width: 1000px) {
@@ -100,7 +106,7 @@ body {
 @media all and (min-width: 1000px) {
     #menu {
         position: absolute;
-        bottom: 0;
+        bottom: -5px;
         right: 0;
     }
 
@@ -122,6 +128,13 @@ body {
         content: "";
         clear: both;
         display: block;
+    }
+}
+
+@media all and (min-width: 600px) {
+    #paragraph-style {
+        width: 40%;
+        float: left;
     }
 }
 
