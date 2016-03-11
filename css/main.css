@@ -105,13 +105,14 @@ body {
 
 @media all and (min-width: 1000px) {
     #menu {
-        position: absolute;
-        bottom: -5px;
-        right: 0;
+        position: relative;
+        width: 100%;
+        top: 185px;
+        left: 160px;
     }
 
-    #menu ul {
-        float: right;
+    #menu li {
+        display: inline-block;
     }
 }
 
