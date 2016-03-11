@@ -133,7 +133,7 @@ body {
 
 @media all and (min-width: 1000px) {
     #paragraph-style {
-        width: 40%;
+        width: 38%;
         float: left;
     }
 }
@@ -242,11 +242,25 @@ h4 {
         display: inline-block;
         padding: 40px 0;
     }
-    #colors ul li {
-        max-width: 999px;
-        margin-right: inherit;
-    }
+}
 
+@media all and (min-width: 1000px) {
+    #colors {
+        padding: 0;
+        float: right;
+        width: 60%;
+    }
+    #colors::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    #colors ul {
+        margin: 0;
+    }
+    #colors li {
+        margin: 0;
+    }
 }
 
 /* Images */
